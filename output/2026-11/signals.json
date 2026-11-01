@@ -1,0 +1,737 @@
+{
+  "AAPL": {
+    "market": {
+      "price": 344.6300048828125,
+      "low52": 243.4199981689453,
+      "high52": 351.7300109863281,
+      "asOf": "2026-10-30"
+    },
+    "summary": {
+      "score": 0.3939393939393939,
+      "label": "Buy"
+    },
+    "technical": {
+      "label": "Buy",
+      "buy": 7,
+      "sell": 2,
+      "items": [
+        {
+          "name": "RSI(14)",
+          "value": 55.34830906118115,
+          "signal": "Buy"
+        },
+        {
+          "name": "STOCH(9,6)",
+          "value": 58.438210548142564,
+          "signal": "Buy"
+        },
+        {
+          "name": "STOCHRSI(14)",
+          "value": 0,
+          "signal": "Oversold"
+        },
+        {
+          "name": "MACD(12,26)",
+          "value": 3.783221628449496,
+          "signal": "Buy"
+        },
+        {
+          "name": "ADX(14)",
+          "value": 19.565367279562572,
+          "signal": "Neutral"
+        },
+        {
+          "name": "Williams %R",
+          "value": -40.851577150803855,
+          "signal": "Buy"
+        },
+        {
+          "name": "CCI(14)",
+          "value": -66.25581590631072,
+          "signal": "Sell"
+        },
+        {
+          "name": "ATR(14)",
+          "value": 6.8799804221016885,
+          "signal": "Neutral",
+          "counted": false
+        },
+        {
+          "name": "Highs/Lows(14)",
+          "value": 1.589996337890625,
+          "signal": "Buy"
+        },
+        {
+          "name": "Ultimate Oscillator",
+          "value": 56.410390454075774,
+          "signal": "Buy"
+        },
+        {
+          "name": "ROC",
+          "value": 0.48694117953788146,
+          "signal": "Buy"
+        },
+        {
+          "name": "Bull/Bear Power(13)",
+          "value": -4.689883980231002,
+          "signal": "Sell"
+        }
+      ]
+    },
+    "movingAverages": {
+      "label": "Buy",
+      "buy": 8,
+      "sell": 4,
+      "items": [
+        {
+          "name": "MA5 Simple",
+          "value": 345.6760009765625,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA5 Exponential",
+          "value": 345.75672421796116,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA10 Simple",
+          "value": 345.0760009765625,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA10 Exponential",
+          "value": 344.8502366682394,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA20 Simple",
+          "value": 342.0835021972656,
+          "signal": "Buy"
+        },
+        {
+          "name": "MA20 Exponential",
+          "value": 342.2444335455354,
+          "signal": "Buy"
+        },
+        {
+          "name": "MA50 Simple",
+          "value": 333.04080078125,
+          "signal": "Buy"
+        },
+        {
+          "name": "MA50 Exponential",
+          "value": 334.208094524613,
+          "signal": "Buy"
+        },
+        {
+          "name": "MA100 Simple",
+          "value": 321.44670013427736,
+          "signal": "Buy"
+        },
+        {
+          "name": "MA100 Exponential",
+          "value": 322.2891785859027,
+          "signal": "Buy"
+        },
+        {
+          "name": "MA200 Simple",
+          "value": 296.5560499572754,
+          "signal": "Buy"
+        },
+        {
+          "name": "MA200 Exponential",
+          "value": 303.50159670076954,
+          "signal": "Buy"
+        }
+      ]
+    }
+  },
+  "GOOGL": {
+    "market": {
+      "price": 279.8399963378906,
+      "low52": 270.70001220703125,
+      "high52": 408.6099853515625,
+      "asOf": "2026-10-30"
+    },
+    "summary": {
+      "score": -0.7727272727272727,
+      "label": "Strong Sell"
+    },
+    "technical": {
+      "label": "Strong Sell",
+      "buy": 0,
+      "sell": 6,
+      "items": [
+        {
+          "name": "RSI(14)",
+          "value": 21.376894186862657,
+          "signal": "Oversold"
+        },
+        {
+          "name": "STOCH(9,6)",
+          "value": 7.601206589234146,
+          "signal": "Oversold"
+        },
+        {
+          "name": "STOCHRSI(14)",
+          "value": 0,
+          "signal": "Oversold"
+        },
+        {
+          "name": "MACD(12,26)",
+          "value": -12.242220093285596,
+          "signal": "Sell"
+        },
+        {
+          "name": "ADX(14)",
+          "value": 26.086220896626696,
+          "signal": "Sell"
+        },
+        {
+          "name": "Williams %R",
+          "value": -96.4597676993115,
+          "signal": "Oversold"
+        },
+        {
+          "name": "CCI(14)",
+          "value": -185.78026126230176,
+          "signal": "Sell"
+        },
+        {
+          "name": "ATR(14)",
+          "value": 10.40630297734943,
+          "signal": "Neutral",
+          "counted": false
+        },
+        {
+          "name": "Highs/Lows(14)",
+          "value": -38.32000732421875,
+          "signal": "Sell"
+        },
+        {
+          "name": "Ultimate Oscillator",
+          "value": 23.603398680540728,
+          "signal": "Oversold"
+        },
+        {
+          "name": "ROC",
+          "value": -19.50293851503599,
+          "signal": "Sell"
+        },
+        {
+          "name": "Bull/Bear Power(13)",
+          "value": -77.22808324077334,
+          "signal": "Sell"
+        }
+      ]
+    },
+    "movingAverages": {
+      "label": "Strong Sell",
+      "buy": 0,
+      "sell": 12,
+      "items": [
+        {
+          "name": "MA5 Simple",
+          "value": 305.1859985351563,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA5 Exponential",
+          "value": 300.5019894100517,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA10 Simple",
+          "value": 318.95799865722654,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA10 Exponential",
+          "value": 313.75304748806593,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA20 Simple",
+          "value": 333.9065002441406,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA20 Exponential",
+          "value": 325.7795135742214,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA50 Simple",
+          "value": 339.07179931640627,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA50 Exponential",
+          "value": 336.6923365775143,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA100 Simple",
+          "value": 345.5360992431641,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA100 Exponential",
+          "value": 340.66874296972435,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA200 Simple",
+          "value": 340.6550993347168,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA200 Exponential",
+          "value": 329.8488022644897,
+          "signal": "Sell"
+        }
+      ]
+    }
+  },
+  "NVDA": {
+    "market": {
+      "price": 204.63999938964844,
+      "low52": 164.27000427246094,
+      "high52": 243.3699951171875,
+      "asOf": "2026-10-30"
+    },
+    "summary": {
+      "score": -0.7348484848484849,
+      "label": "Strong Sell"
+    },
+    "technical": {
+      "label": "Strong Sell",
+      "buy": 0,
+      "sell": 7,
+      "items": [
+        {
+          "name": "RSI(14)",
+          "value": 35.05601474934153,
+          "signal": "Sell"
+        },
+        {
+          "name": "STOCH(9,6)",
+          "value": 32.56497436544179,
+          "signal": "Sell"
+        },
+        {
+          "name": "STOCHRSI(14)",
+          "value": 0,
+          "signal": "Oversold"
+        },
+        {
+          "name": "MACD(12,26)",
+          "value": -3.6576325621151113,
+          "signal": "Sell"
+        },
+        {
+          "name": "ADX(14)",
+          "value": 19.828864464162347,
+          "signal": "Neutral"
+        },
+        {
+          "name": "Williams %R",
+          "value": -86.58008276736733,
+          "signal": "Oversold"
+        },
+        {
+          "name": "CCI(14)",
+          "value": -230.32467118339443,
+          "signal": "Oversold"
+        },
+        {
+          "name": "ATR(14)",
+          "value": 6.223754900723279,
+          "signal": "Neutral",
+          "counted": false
+        },
+        {
+          "name": "Highs/Lows(14)",
+          "value": -10.139999389648438,
+          "signal": "Sell"
+        },
+        {
+          "name": "Ultimate Oscillator",
+          "value": 37.12812639874573,
+          "signal": "Sell"
+        },
+        {
+          "name": "ROC",
+          "value": -7.528243756152557,
+          "signal": "Sell"
+        },
+        {
+          "name": "Bull/Bear Power(13)",
+          "value": -21.95565588445129,
+          "signal": "Sell"
+        }
+      ]
+    },
+    "movingAverages": {
+      "label": "Strong Sell",
+      "buy": 1,
+      "sell": 11,
+      "items": [
+        {
+          "name": "MA5 Simple",
+          "value": 213.5240020751953,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA5 Exponential",
+          "value": 211.67143387108447,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA10 Simple",
+          "value": 214.6320022583008,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA10 Exponential",
+          "value": 214.597222518932,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA20 Simple",
+          "value": 221.45950164794922,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA20 Exponential",
+          "value": 218.1787624865918,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA50 Simple",
+          "value": 221.74860076904298,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA50 Exponential",
+          "value": 219.51796451802676,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA100 Simple",
+          "value": 214.51979995727538,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA100 Exponential",
+          "value": 215.5182539607527,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA200 Simple",
+          "value": 204.38455017089845,
+          "signal": "Buy"
+        },
+        {
+          "name": "MA200 Exponential",
+          "value": 205.51468763604856,
+          "signal": "Sell"
+        }
+      ]
+    }
+  },
+  "AMZN": {
+    "market": {
+      "price": 240.35000610351562,
+      "low52": 196,
+      "high52": 287.20001220703125,
+      "asOf": "2026-10-30"
+    },
+    "summary": {
+      "score": -0.8636363636363636,
+      "label": "Strong Sell"
+    },
+    "technical": {
+      "label": "Strong Sell",
+      "buy": 0,
+      "sell": 8,
+      "items": [
+        {
+          "name": "RSI(14)",
+          "value": 38.262805406290504,
+          "signal": "Sell"
+        },
+        {
+          "name": "STOCH(9,6)",
+          "value": 23.609187656122472,
+          "signal": "Sell"
+        },
+        {
+          "name": "STOCHRSI(14)",
+          "value": 0,
+          "signal": "Oversold"
+        },
+        {
+          "name": "MACD(12,26)",
+          "value": -2.0134358192612183,
+          "signal": "Sell"
+        },
+        {
+          "name": "ADX(14)",
+          "value": 15.311861017758691,
+          "signal": "Neutral"
+        },
+        {
+          "name": "Williams %R",
+          "value": -69.45523402396537,
+          "signal": "Sell"
+        },
+        {
+          "name": "CCI(14)",
+          "value": -204.12660252577416,
+          "signal": "Oversold"
+        },
+        {
+          "name": "ATR(14)",
+          "value": 7.25568605325445,
+          "signal": "Neutral",
+          "counted": false
+        },
+        {
+          "name": "Highs/Lows(14)",
+          "value": -6.999992370605469,
+          "signal": "Sell"
+        },
+        {
+          "name": "Ultimate Oscillator",
+          "value": 46.829575174127264,
+          "signal": "Sell"
+        },
+        {
+          "name": "ROC",
+          "value": -5.403808103192845,
+          "signal": "Sell"
+        },
+        {
+          "name": "Bull/Bear Power(13)",
+          "value": -31.031058980355738,
+          "signal": "Sell"
+        }
+      ]
+    },
+    "movingAverages": {
+      "label": "Strong Sell",
+      "buy": 0,
+      "sell": 12,
+      "items": [
+        {
+          "name": "MA5 Simple",
+          "value": 248.18600158691407,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA5 Exponential",
+          "value": 246.83871580967653,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA10 Simple",
+          "value": 252.6760025024414,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA10 Exponential",
+          "value": 250.0069708642629,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA20 Simple",
+          "value": 254.39050064086913,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA20 Exponential",
+          "value": 252.16007445786062,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA50 Simple",
+          "value": 254.27900024414063,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA50 Exponential",
+          "value": 253.50097395412635,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA100 Simple",
+          "value": 251.79759979248047,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA100 Exponential",
+          "value": 251.91696657781483,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA200 Simple",
+          "value": 243.40059997558595,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA200 Exponential",
+          "value": 245.85582909246887,
+          "signal": "Sell"
+        }
+      ]
+    }
+  },
+  "BAC": {
+    "market": {
+      "price": 50.0099983215332,
+      "low52": 46.119998931884766,
+      "high52": 65.2300033569336,
+      "asOf": "2026-10-30"
+    },
+    "summary": {
+      "score": -0.8181818181818181,
+      "label": "Strong Sell"
+    },
+    "technical": {
+      "label": "Strong Sell",
+      "buy": 1,
+      "sell": 8,
+      "items": [
+        {
+          "name": "RSI(14)",
+          "value": 27.666488512049767,
+          "signal": "Oversold"
+        },
+        {
+          "name": "STOCH(9,6)",
+          "value": 30.631749968677322,
+          "signal": "Sell"
+        },
+        {
+          "name": "STOCHRSI(14)",
+          "value": 53.01137965901365,
+          "signal": "Buy"
+        },
+        {
+          "name": "MACD(12,26)",
+          "value": -1.66323027402251,
+          "signal": "Sell"
+        },
+        {
+          "name": "ADX(14)",
+          "value": 47.17693453828258,
+          "signal": "Sell"
+        },
+        {
+          "name": "Williams %R",
+          "value": -86.58318462383605,
+          "signal": "Oversold"
+        },
+        {
+          "name": "CCI(14)",
+          "value": -83.88008757514405,
+          "signal": "Sell"
+        },
+        {
+          "name": "ATR(14)",
+          "value": 1.159802574760773,
+          "signal": "Neutral",
+          "counted": false
+        },
+        {
+          "name": "Highs/Lows(14)",
+          "value": -2.0450000762939453,
+          "signal": "Sell"
+        },
+        {
+          "name": "Ultimate Oscillator",
+          "value": 33.81204002948847,
+          "signal": "Sell"
+        },
+        {
+          "name": "ROC",
+          "value": -2.68534945418429,
+          "signal": "Sell"
+        },
+        {
+          "name": "Bull/Bear Power(13)",
+          "value": -1.4077147157675114,
+          "signal": "Sell"
+        }
+      ]
+    },
+    "movingAverages": {
+      "label": "Strong Sell",
+      "buy": 0,
+      "sell": 12,
+      "items": [
+        {
+          "name": "MA5 Simple",
+          "value": 50.63999938964844,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA5 Exponential",
+          "value": 50.60552568032844,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA10 Simple",
+          "value": 50.66499977111816,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA10 Exponential",
+          "value": 50.963809014193636,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA20 Simple",
+          "value": 51.95249996185303,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA20 Exponential",
+          "value": 52.090530521349976,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA50 Simple",
+          "value": 56.43619995117187,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA50 Exponential",
+          "value": 54.959195993877984,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA100 Simple",
+          "value": 58.407399864196776,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA100 Exponential",
+          "value": 56.107318001175116,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA200 Simple",
+          "value": 54.95389995574951,
+          "signal": "Sell"
+        },
+        {
+          "name": "MA200 Exponential",
+          "value": 55.194470245732276,
+          "signal": "Sell"
+        }
+      ]
+    }
+  }
+}

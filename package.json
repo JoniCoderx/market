@@ -1,0 +1,12 @@
+{
+  "name": "ssci-monthly-signals",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generates the SSCI monthly signal cards (chart, technicals, fair value, financial health) as PNGs.",
+  "scripts": {
+    "build": "node src/build.js"
+  },
+  "dependencies": {
+    "playwright": "^1.47.0"
+  }
+}

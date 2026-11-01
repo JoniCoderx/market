@@ -1,0 +1,53 @@
+{
+  "_note": "PLACEHOLDER VALUES copied from the Sep/Oct 2026 cards. Replace with this month's InvestingPro numbers before publishing.",
+  "AAPL": {
+    "fairValue": { "average": 261.02, "low": 203.88, "high": 283.30, "uncertainty": "LOW" },
+    "analystTargets": { "average": 328.09, "low": 215, "high": 405 },
+    "tips": [
+      { "text": "Has raised its dividend for 14 consecutive years", "tone": "good" },
+      { "text": "Trading at a high earnings multiple", "tone": "bad" },
+      { "text": "Trading at a high P/E ratio relative to near-term earnings growth", "tone": "bad" },
+      { "text": "Analysts have revised their earnings downwards for the upcoming period", "tone": "bad" }
+    ]
+  },
+  "GOOGL": {
+    "fairValue": { "average": 336.97, "low": 263.93, "high": 435.61, "uncertainty": "MED" },
+    "analystTargets": { "average": 428.07, "low": 340, "high": 515 },
+    "tips": [
+      { "text": "Holds more cash than debt on its balance sheet", "tone": "good" },
+      { "text": "Analysts have revised their earnings downwards for the upcoming period", "tone": "bad" },
+      { "text": "Trading at a low P/E ratio relative to near-term earnings growth", "tone": "good" },
+      { "text": "Prominent player in the Interactive Media & Services industry", "tone": "good" }
+    ]
+  },
+  "NVDA": {
+    "fairValue": { "average": 270.30, "low": 158.18, "high": 304.86, "uncertainty": "MED" },
+    "analystTargets": { "average": 325.99, "low": 180, "high": 515 },
+    "tips": [
+      { "text": "Has raised its dividend for 3 consecutive years", "tone": "good" },
+      { "text": "Analysts anticipate sales growth in the current year", "tone": "good" },
+      { "text": "Trading at a low P/E ratio relative to near-term earnings growth", "tone": "good" },
+      { "text": "Analysts have revised their earnings upwards for the upcoming period", "tone": "good" }
+    ]
+  },
+  "AMZN": {
+    "fairValue": { "average": 276.97, "low": 239.24, "high": 317.77, "uncertainty": "LOW" },
+    "analystTargets": { "average": 328, "low": 230, "high": 405 },
+    "tips": [
+      { "text": "Trading at a high Price Book multiple", "tone": "bad" },
+      { "text": "Prominent player in the Broadline Retail industry", "tone": "good" },
+      { "text": "Trading at a low P/E ratio relative to near-term earnings growth", "tone": "good" },
+      { "text": "Operates with a moderate level of debt", "tone": "neutral" }
+    ]
+  },
+  "BAC": {
+    "fairValue": { "average": 75.70, "low": 52.59, "high": 108.28, "uncertainty": "LOW" },
+    "analystTargets": { "average": 68.77, "low": 58, "high": 71 },
+    "tips": [
+      { "text": "Has raised its dividend for 12 consecutive years", "tone": "good" },
+      { "text": "Analysts have revised their earnings upwards for the upcoming period", "tone": "good" },
+      { "text": "Trading at a low P/E ratio relative to near-term earnings growth", "tone": "good" },
+      { "text": "Management has been aggressively buying back shares", "tone": "good" }
+    ]
+  }
+}
