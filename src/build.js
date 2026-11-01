@@ -60,8 +60,11 @@ async function main() {
       high52: Math.max(...year.map((b) => b.high)),
       asOf: new Date(bars[bars.length - 1].t * 1000).toISOString().slice(0, 10),
     };
+    market.asOfLabel = new Date(market.asOf + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+    const [yy, mm] = monthArg.split('-').map(Number);
+    const monthLabel = new Date(Date.UTC(yy, mm - 1, 15)).toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' });
     const signals = analyze(bars);
-    const html = card({ stock, month: monthData[stock.ticker], market, signals, logo, chart: chartSVG(bars) });
+    const html = card({ stock, month: monthData[stock.ticker], market, signals, logo, chart: chartSVG(bars), monthLabel });
     const htmlPath = path.join(outDir, `${stock.ticker}.html`);
     fs.writeFileSync(htmlPath, html);
     await page.goto('file://' + htmlPath);

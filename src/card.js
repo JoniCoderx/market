@@ -58,7 +58,7 @@ function gauge(score, label, logo) {
   </div>`;
 }
 
-function card({ stock, month, market, signals, logo, chart }) {
+function card({ stock, month, market, signals, logo, chart, monthLabel }) {
   const fv = month.fairValue;
   const upside = ((fv.average - market.price) / market.price) * 100;
   const up = upside >= 0;
@@ -106,6 +106,7 @@ h1 .t{color:${COL.orange}}
 <h1>${esc(stock.name)} <span class="t">${esc(stock.ticker)}</span></h1>
 <img class="logo" src="${logo}">
 <div class="chart">${chart}</div>
+<div class="abs" style="left:32px;top:404px;font-size:22px;font-weight:600;color:${COL.orange}">${esc(monthLabel)} <span style="font-weight:400;color:${COL.grey};font-size:16px">&nbsp;·&nbsp; prices as of ${esc(market.asOfLabel)}</span></div>
 
 <div class="pros">
 ${month.tips.map((t) => `<div class="pro" style="color:${TONE[t.tone] || TONE.neutral}">${esc(t.text)}</div>`).join('')}
