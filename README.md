@@ -50,3 +50,18 @@ If the Market Range on the card doesn't match InvestingPro (it can happen after 
 `stocks.json` holds each company's name, sector and **Financial Health** scores (overall + 5 factors). Edit it when InvestingPro's health scores change.
 
 To add a stock, add it to `stocks.json` and give it an entry in the month file.
+
+## Links used each month
+
+Upload the finished cards to: https://ssci.group/monthly-sigals
+
+InvestingPro overview (one screenshot per stock: Fair Value, Analyst Targets, Investing Models, tips, Financial Health):
+
+| Stock | InvestingPro | Investing.com Technical (Daily, optional check) |
+|---|---|---|
+| AAPL | https://www.investing.com/pro/NASDAQGS:AAPL | https://www.investing.com/equities/apple-computer-inc-technical |
+| GOOGL | https://www.investing.com/pro/NASDAQGS:GOOGL | https://www.investing.com/equities/google-inc-technical |
+| NVDA | https://www.investing.com/pro/NASDAQGS:NVDA | https://www.investing.com/equities/nvidia-corp-technical |
+| AMZN | https://www.investing.com/pro/NASDAQGS:AMZN | https://www.investing.com/equities/amazon-com-inc-technical |
+| BAC | https://www.investing.com/pro/NYSE:BAC | https://www.investing.com/equities/bank-of-america-technical |
+| FDX | https://www.investing.com/pro/NYSE:FDX | https://www.investing.com/equities/fedex-corp-technical |
