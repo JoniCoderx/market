@@ -1,53 +1,188 @@
 {
-  "_note": "PLACEHOLDER VALUES copied from the Sep/Oct 2026 cards. Replace with this month's InvestingPro numbers before publishing.",
   "AAPL": {
-    "fairValue": { "average": 261.02, "low": 203.88, "high": 283.30, "uncertainty": "LOW" },
-    "analystTargets": { "average": 328.09, "low": 215, "high": 405 },
+    "fairValue": {
+      "average": 267.59,
+      "low": 217.47,
+      "high": 284.5,
+      "uncertainty": "LOW"
+    },
+    "analystTargets": {
+      "average": 332.39,
+      "low": 245,
+      "high": 405
+    },
     "tips": [
-      { "text": "Has raised its dividend for 14 consecutive years", "tone": "good" },
-      { "text": "Trading at a high earnings multiple", "tone": "bad" },
-      { "text": "Trading at a high P/E ratio relative to near-term earnings growth", "tone": "bad" },
-      { "text": "Analysts have revised their earnings downwards for the upcoming period", "tone": "bad" }
+      {
+        "text": "Has raised its dividend for 14 consecutive years",
+        "tone": "good"
+      },
+      {
+        "text": "Trading at a high earnings multiple",
+        "tone": "bad"
+      },
+      {
+        "text": "Trading at a high P/E ratio relative to near-term earnings growth",
+        "tone": "bad"
+      },
+      {
+        "text": "Stock generally trades with low price volatility",
+        "tone": "good"
+      }
     ]
   },
   "GOOGL": {
-    "fairValue": { "average": 336.97, "low": 263.93, "high": 435.61, "uncertainty": "MED" },
-    "analystTargets": { "average": 428.07, "low": 340, "high": 515 },
+    "fairValue": {
+      "average": 303.3,
+      "low": 232.08,
+      "high": 455.16,
+      "uncertainty": "LOW"
+    },
+    "analystTargets": {
+      "average": 406.55,
+      "low": 325,
+      "high": 500
+    },
     "tips": [
-      { "text": "Holds more cash than debt on its balance sheet", "tone": "good" },
-      { "text": "Analysts have revised their earnings downwards for the upcoming period", "tone": "bad" },
-      { "text": "Trading at a low P/E ratio relative to near-term earnings growth", "tone": "good" },
-      { "text": "Prominent player in the Interactive Media & Services industry", "tone": "good" }
+      {
+        "text": "Holds more cash than debt on its balance sheet",
+        "tone": "good"
+      },
+      {
+        "text": "Has raised its dividend for 3 consecutive years",
+        "tone": "good"
+      },
+      {
+        "text": "RSI suggests the stock is in oversold territory",
+        "tone": "good"
+      },
+      {
+        "text": "9 analysts have revised their earnings downwards for the upcoming period",
+        "tone": "bad"
+      }
     ]
   },
   "NVDA": {
-    "fairValue": { "average": 270.30, "low": 158.18, "high": 304.86, "uncertainty": "MED" },
-    "analystTargets": { "average": 325.99, "low": 180, "high": 515 },
+    "fairValue": {
+      "average": 296.22,
+      "low": 149.57,
+      "high": 393.39,
+      "uncertainty": "MED"
+    },
+    "analystTargets": {
+      "average": 328.95,
+      "low": 180,
+      "high": 515
+    },
     "tips": [
-      { "text": "Has raised its dividend for 3 consecutive years", "tone": "good" },
-      { "text": "Analysts anticipate sales growth in the current year", "tone": "good" },
-      { "text": "Trading at a low P/E ratio relative to near-term earnings growth", "tone": "good" },
-      { "text": "Analysts have revised their earnings upwards for the upcoming period", "tone": "good" }
+      {
+        "text": "Has raised its dividend for 3 consecutive years",
+        "tone": "good"
+      },
+      {
+        "text": "Analysts anticipate sales growth in the current year",
+        "tone": "good"
+      },
+      {
+        "text": "Trading at a low P/E ratio relative to near-term earnings growth",
+        "tone": "good"
+      },
+      {
+        "text": "Prominent player in the Semiconductors & Semiconductor Equipment industry",
+        "tone": "good"
+      }
     ]
   },
   "AMZN": {
-    "fairValue": { "average": 276.97, "low": 239.24, "high": 317.77, "uncertainty": "LOW" },
-    "analystTargets": { "average": 328, "low": 230, "high": 405 },
+    "fairValue": {
+      "average": 270.12,
+      "low": 232.31,
+      "high": 311.73,
+      "uncertainty": "LOW"
+    },
+    "analystTargets": {
+      "average": 326.92,
+      "low": 230,
+      "high": 405
+    },
     "tips": [
-      { "text": "Trading at a high Price Book multiple", "tone": "bad" },
-      { "text": "Prominent player in the Broadline Retail industry", "tone": "good" },
-      { "text": "Trading at a low P/E ratio relative to near-term earnings growth", "tone": "good" },
-      { "text": "Operates with a moderate level of debt", "tone": "neutral" }
+      {
+        "text": "Trading at a low P/E ratio relative to near-term earnings growth",
+        "tone": "good"
+      },
+      {
+        "text": "Prominent player in the Broadline Retail industry",
+        "tone": "good"
+      },
+      {
+        "text": "Operates with a moderate level of debt",
+        "tone": "neutral"
+      },
+      {
+        "text": "Trading at a high Price / Book multiple",
+        "tone": "bad"
+      }
     ]
   },
   "BAC": {
-    "fairValue": { "average": 75.70, "low": 52.59, "high": 108.28, "uncertainty": "LOW" },
-    "analystTargets": { "average": 68.77, "low": 58, "high": 71 },
+    "fairValue": {
+      "average": 50.75,
+      "low": 48.64,
+      "high": 53.24,
+      "uncertainty": "MED"
+    },
+    "analystTargets": {
+      "average": 62.84,
+      "low": 56,
+      "high": 71
+    },
     "tips": [
-      { "text": "Has raised its dividend for 12 consecutive years", "tone": "good" },
-      { "text": "Analysts have revised their earnings upwards for the upcoming period", "tone": "good" },
-      { "text": "Trading at a low P/E ratio relative to near-term earnings growth", "tone": "good" },
-      { "text": "Management has been aggressively buying back shares", "tone": "good" }
+      {
+        "text": "Management has been aggressively buying back shares",
+        "tone": "good"
+      },
+      {
+        "text": "High shareholder yield",
+        "tone": "good"
+      },
+      {
+        "text": "Has raised its dividend for 13 consecutive years",
+        "tone": "good"
+      },
+      {
+        "text": "RSI suggests the stock is in oversold territory",
+        "tone": "good"
+      }
+    ]
+  },
+  "FDX": {
+    "fairValue": {
+      "average": 311.98,
+      "low": 270.07,
+      "high": 358.96,
+      "uncertainty": "LOW"
+    },
+    "analystTargets": {
+      "average": 357,
+      "low": 160,
+      "high": 479
+    },
+    "tips": [
+      {
+        "text": "Has raised its dividend for 5 consecutive years",
+        "tone": "good"
+      },
+      {
+        "text": "4 analysts have revised their earnings downwards for the upcoming period",
+        "tone": "bad"
+      },
+      {
+        "text": "Trading at a high P/E ratio relative to near-term earnings growth",
+        "tone": "bad"
+      },
+      {
+        "text": "Stock generally trades with low price volatility",
+        "tone": "good"
+      }
     ]
   }
 }

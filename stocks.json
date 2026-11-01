@@ -1,37 +1,188 @@
 [
   {
-    "ticker": "AAPL", "name": "Apple Inc", "shortName": "Apple", "sector": "Information Technology",
-    "financialHealth": { "score": 4, "factors": [
-      { "name": "Cash Flow Health", "score": 3 }, { "name": "Growth Health", "score": 2 },
-      { "name": "Price Momentum", "score": 4 }, { "name": "Profitability Health", "score": 4 },
-      { "name": "Relative Value", "score": 1 } ] }
+    "ticker": "AAPL",
+    "name": "Apple Inc",
+    "shortName": "Apple",
+    "sector": "Information Technology",
+    "financialHealth": {
+      "score": 4,
+      "factors": [
+        {
+          "name": "Cash Flow Health",
+          "score": 3
+        },
+        {
+          "name": "Growth Health",
+          "score": 3
+        },
+        {
+          "name": "Price Momentum",
+          "score": 4
+        },
+        {
+          "name": "Profitability Health",
+          "score": 4
+        },
+        {
+          "name": "Relative Value",
+          "score": 1
+        }
+      ]
+    }
   },
   {
-    "ticker": "GOOGL", "name": "Alphabet Inc", "shortName": "Alphabet", "sector": "Communication Services",
-    "financialHealth": { "score": 4, "factors": [
-      { "name": "Cash Flow Health", "score": 3 }, { "name": "Growth Health", "score": 3 },
-      { "name": "Price Momentum", "score": 4 }, { "name": "Profitability Health", "score": 4 },
-      { "name": "Relative Value", "score": 1 } ] }
+    "ticker": "GOOGL",
+    "name": "Alphabet Inc",
+    "shortName": "Alphabet",
+    "sector": "Communication Services",
+    "financialHealth": {
+      "score": 3,
+      "factors": [
+        {
+          "name": "Cash Flow Health",
+          "score": 3
+        },
+        {
+          "name": "Growth Health",
+          "score": 3
+        },
+        {
+          "name": "Price Momentum",
+          "score": 2
+        },
+        {
+          "name": "Profitability Health",
+          "score": 4
+        },
+        {
+          "name": "Relative Value",
+          "score": 2
+        }
+      ]
+    }
   },
   {
-    "ticker": "NVDA", "name": "NVIDIA Corp", "shortName": "NVIDIA", "sector": "Information Technology",
-    "financialHealth": { "score": 5, "factors": [
-      { "name": "Cash Flow Health", "score": 4 }, { "name": "Growth Health", "score": 4 },
-      { "name": "Price Momentum", "score": 4 }, { "name": "Profitability Health", "score": 5 },
-      { "name": "Relative Value", "score": 2 } ] }
+    "ticker": "NVDA",
+    "name": "NVIDIA Corp",
+    "shortName": "NVIDIA",
+    "sector": "Information Technology",
+    "financialHealth": {
+      "score": 4,
+      "factors": [
+        {
+          "name": "Cash Flow Health",
+          "score": 4
+        },
+        {
+          "name": "Growth Health",
+          "score": 4
+        },
+        {
+          "name": "Price Momentum",
+          "score": 3
+        },
+        {
+          "name": "Profitability Health",
+          "score": 5
+        },
+        {
+          "name": "Relative Value",
+          "score": 3
+        }
+      ]
+    }
   },
   {
-    "ticker": "AMZN", "name": "Amazon.com Inc", "shortName": "Amazon.com", "sector": "Consumer Discretionary",
-    "financialHealth": { "score": 3, "factors": [
-      { "name": "Cash Flow Health", "score": 3 }, { "name": "Growth Health", "score": 3 },
-      { "name": "Price Momentum", "score": 3 }, { "name": "Profitability Health", "score": 4 },
-      { "name": "Relative Value", "score": 2 } ] }
+    "ticker": "AMZN",
+    "name": "Amazon.com Inc",
+    "shortName": "Amazon.com",
+    "sector": "Consumer Discretionary",
+    "financialHealth": {
+      "score": 3,
+      "factors": [
+        {
+          "name": "Cash Flow Health",
+          "score": 3
+        },
+        {
+          "name": "Growth Health",
+          "score": 3
+        },
+        {
+          "name": "Price Momentum",
+          "score": 2
+        },
+        {
+          "name": "Profitability Health",
+          "score": 4
+        },
+        {
+          "name": "Relative Value",
+          "score": 2
+        }
+      ]
+    }
   },
   {
-    "ticker": "BAC", "name": "Bank Of America Corp", "shortName": "Bank of America", "sector": "Financials",
-    "financialHealth": { "score": 3, "factors": [
-      { "name": "Cash Flow Health", "score": 3 }, { "name": "Growth Health", "score": 3 },
-      { "name": "Price Momentum", "score": 3 }, { "name": "Profitability Health", "score": 3 },
-      { "name": "Relative Value", "score": 3 } ] }
+    "ticker": "BAC",
+    "name": "Bank Of America Corp",
+    "shortName": "Bank of America",
+    "sector": "Financials",
+    "financialHealth": {
+      "score": 3,
+      "factors": [
+        {
+          "name": "Cash Flow Health",
+          "score": 3
+        },
+        {
+          "name": "Growth Health",
+          "score": 3
+        },
+        {
+          "name": "Price Momentum",
+          "score": 1
+        },
+        {
+          "name": "Profitability Health",
+          "score": 2
+        },
+        {
+          "name": "Relative Value",
+          "score": 3
+        }
+      ]
+    }
+  },
+  {
+    "ticker": "FDX",
+    "name": "FedEx Corp",
+    "shortName": "FedEx",
+    "sector": "Industrials",
+    "financialHealth": {
+      "score": 3,
+      "factors": [
+        {
+          "name": "Cash Flow Health",
+          "score": 3
+        },
+        {
+          "name": "Growth Health",
+          "score": 2
+        },
+        {
+          "name": "Price Momentum",
+          "score": 4
+        },
+        {
+          "name": "Profitability Health",
+          "score": 3
+        },
+        {
+          "name": "Relative Value",
+          "score": 2
+        }
+      ]
+    }
   }
 ]
