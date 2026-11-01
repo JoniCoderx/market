@@ -152,7 +152,20 @@
         "text": "RSI suggests the stock is in oversold territory",
         "tone": "good"
       }
-    ]
+    ],
+    "technicals": {
+      "summary": "Strong Sell",
+      "technical": {
+        "label": "Strong Sell",
+        "buy": 1,
+        "sell": 9
+      },
+      "movingAverages": {
+        "label": "Strong Sell",
+        "buy": 0,
+        "sell": 12
+      }
+    }
   },
   "FDX": {
     "fairValue": {
@@ -183,6 +196,19 @@
         "text": "Stock generally trades with low price volatility",
         "tone": "good"
       }
-    ]
+    ],
+    "technicals": {
+      "summary": "Strong Buy",
+      "technical": {
+        "label": "Strong Buy",
+        "buy": 9,
+        "sell": 0
+      },
+      "movingAverages": {
+        "label": "Strong Buy",
+        "buy": 11,
+        "sell": 1
+      }
+    }
   }
 }

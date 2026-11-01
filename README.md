@@ -17,6 +17,20 @@ Builds the monthly signal cards for ssci.group/monthly-sigals: one 1450×1050 PN
    ```
 4. The cards are written to `output/2026-12/<TICKER>.png`.
 
+### Optional: use Investing.com's exact technical numbers
+
+On Investing.com, open the stock's **Technical** tab, select **Daily**, and copy the numbers into the stock's entry:
+
+```json
+"technicals": {
+  "summary": "Strong Buy",
+  "technical": { "label": "Strong Buy", "buy": 9, "sell": 0 },
+  "movingAverages": { "label": "Strong Buy", "buy": 11, "sell": 1 }
+}
+```
+
+Leave it out and the card uses its own calculation, which usually matches.
+
 ## What is automatic
 
 | On the card | Source |

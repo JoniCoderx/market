@@ -64,6 +64,14 @@ async function main() {
     const [yy, mm] = monthArg.split('-').map(Number);
     const monthLabel = new Date(Date.UTC(yy, mm - 1, 15)).toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' });
     const signals = analyze(bars);
+    // Optional: exact numbers copied from Investing.com's Technical tab (Daily) win over our own calculation.
+    const ov = monthData[stock.ticker].technicals;
+    if (ov) {
+      const SCORE = { 'Strong Sell': -0.8, Sell: -0.4, Neutral: 0, Buy: 0.4, 'Strong Buy': 0.8 };
+      if (ov.technical) Object.assign(signals.technical, ov.technical);
+      if (ov.movingAverages) Object.assign(signals.movingAverages, ov.movingAverages);
+      if (ov.summary) signals.summary = { label: ov.summary, score: SCORE[ov.summary] };
+    }
     const html = card({ stock, month: monthData[stock.ticker], market, signals, logo, chart: chartSVG(bars), monthLabel });
     const htmlPath = path.join(outDir, `${stock.ticker}.html`);
     fs.writeFileSync(htmlPath, html);
