@@ -31,6 +31,10 @@ On Investing.com, open the stock's **Technical** tab, select **Daily**, and copy
 
 Leave it out and the card uses its own calculation, which usually matches.
 
+### Optional: 52-week range
+
+If the Market Range on the card doesn't match InvestingPro (it can happen after a spin-off or similar event, because the price source adjusts older prices), add `"marketRange": { "low": 249.83, "high": 404.03 }` to that stock.
+
 ## What is automatic
 
 | On the card | Source |

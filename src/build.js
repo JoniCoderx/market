@@ -60,6 +60,8 @@ async function main() {
       high52: Math.max(...year.map((b) => b.high)),
       asOf: new Date(bars[bars.length - 1].t * 1000).toISOString().slice(0, 10),
     };
+    const mr = monthData[stock.ticker].marketRange; // optional override, e.g. after a spin-off
+    if (mr) Object.assign(market, { low52: mr.low, high52: mr.high });
     market.asOfLabel = new Date(market.asOf + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
     const [yy, mm] = monthArg.split('-').map(Number);
     const monthLabel = new Date(Date.UTC(yy, mm - 1, 15)).toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' });

@@ -34,7 +34,8 @@ function chartSVG(allBars, { width = 1100, height = 308, visible = 215 } = {}) {
 
   const padL = 8, padR = 46, top = 30, priceBottom = height - 62, volTop = height - 58, volBottom = height - 20;
   const plotW = width - padL - padR;
-  const step = plotW / bars.length;
+  const future = 8; // empty slots after the last candle so the next month's label shows
+  const step = plotW / (bars.length + future);
   const bodyW = Math.max(1.5, step * 0.62);
 
   const lo = Math.min(...bars.map((b) => b.low)), hi = Math.max(...bars.map((b) => b.high));
@@ -66,6 +67,16 @@ function chartSVG(allBars, { width = 1100, height = 308, visible = 215 } = {}) {
       svg += `<text x="${x(i)}" y="${height - 7}" font-size="9" fill="${C.axis}" text-anchor="middle">${label}</text>`;
     }
   });
+
+  // Next month label in the empty space after the last candle
+  {
+    const ld = new Date(lastBar.t * 1000);
+    const nm = (ld.getUTCMonth() + 1) % 12;
+    const xi = x(bars.length + 1);
+    const label = nm === 0 ? String(ld.getUTCFullYear() + 1) : months[nm];
+    svg += `<line x1="${xi}" x2="${xi}" y1="${top}" y2="${volBottom}" stroke="${C.grid}" stroke-width="1"/>`;
+    svg += `<text x="${xi}" y="${height - 7}" font-size="9" fill="${C.axis}" text-anchor="middle">${label}</text>`;
+  }
 
   // Volume
   bars.forEach((b, i) => {
