@@ -155,26 +155,28 @@ function movingAverages(bars) {
 }
 
 // Turns a buy/sell tally into a rating + a score in [-1, 1] for the gauge.
-function rate(items) {
+function rate(items, strongAt) {
   const counted = items.filter((i) => i.counted !== false);
   const buy = counted.filter((i) => i.signal === 'Buy').length;
   const sell = counted.filter((i) => i.signal === 'Sell').length;
   const score = (buy - sell) / counted.length;
-  return { buy, sell, score, label: labelFor(score) };
+  return { buy, sell, score, label: labelFor(score, strongAt) };
 }
 
-function labelFor(score) {
-  if (score >= 0.5) return 'Strong Buy';
-  if (score >= 0.15) return 'Buy';
-  if (score <= -0.5) return 'Strong Sell';
-  if (score <= -0.15) return 'Sell';
+// Cutoffs calibrated against Investing.com's Daily ratings
+// (e.g. indicators 7 buy / 2 sell = Strong Buy, moving averages 8/4 = Buy, 9/3 = Buy, 10/2 = Strong Buy).
+function labelFor(score, strongAt = 0.35) {
+  if (score >= strongAt) return 'Strong Buy';
+  if (score >= 0.1) return 'Buy';
+  if (score <= -strongAt) return 'Strong Sell';
+  if (score <= -0.1) return 'Sell';
   return 'Neutral';
 }
 
 function analyze(bars) {
   const ti = technicalIndicators(bars);
   const ma = movingAverages(bars);
-  const tiR = rate(ti), maR = rate(ma);
+  const tiR = rate(ti, 0.4), maR = rate(ma, 0.6);
   const score = (tiR.score + maR.score) / 2;
   return { technical: { ...tiR, items: ti }, movingAverages: { ...maR, items: ma }, summary: { score, label: labelFor(score) } };
 }
